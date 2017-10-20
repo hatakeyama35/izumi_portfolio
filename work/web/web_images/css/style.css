@@ -1,0 +1,130 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
+}
+
+/*レイアウト*/
+
+.wrapper{
+  width: 960px;
+  margin: 0 auto;
+}
+
+.pageheader{
+  height: 300px;
+  position: relative;
+  background: #000 url(../img/image-01s.jpg);
+}
+
+.pagenav{
+  margin-bottom: 15px;
+}
+
+.pagenav ul{
+list-style: none;
+  padding-left: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.pagenav li{
+  width: 20%;
+  box-sizing: border-box;
+  float: left;
+  border-right: 1px #888 solid;
+}
+
+.pagenav li{
+border-right-width: 0;
+}
+
+.pagenav li{
+  width: 20%;
+  box-sizing: border-box;
+  float: left;
+  border-right: 1px solid #fff;
+}
+
+.pagenav li:last-child{
+  border-right-width: 0;
+}
+
+.pagenav a{
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 1em 0;
+  background-color: #88f;
+}
+
+.pagetitle {
+  color: #fff;
+  margin: auto;
+  font-size: 50px;
+  height: 1.5em;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+main{
+  overflow: hidden;
+  width: 975px;
+}
+
+main section:nth-child(3n){
+  margin:0 0 15px 0;
+}
+
+.pagefooter{
+  height: 30vh;
+  background-color: #88f;
+  font-style: italic;
+  text-align: right;
+}
+
+.box{
+  position: relative;
+  overflow: hidden;
+  float: left;
+  background-color: #888;
+  width: 310px;
+  height: 310px;
+  margin: 0 15px 15px 0; 
+}
+
+.box:tnh-child(3n) {
+  margin: 0 0 15px 0;
+}
+
+.box header{
+  position: absolute;
+  top: -3.5em;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1em;
+  background-color: rgba(, 0, 0, 0.5);
+  transition: 0.3s linear;
+}
+
+.box:hover header{
+  top: 0;
+}
+
+.box h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1;
+  text-shadow: 1px 3px 3px #000;
+}

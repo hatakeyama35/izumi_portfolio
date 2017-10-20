@@ -1,0 +1,36 @@
+body,
+div,
+h1,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+}
+
+header {
+  width: 100%;
+  text-align: center;
+  padding: 300px 0px 300px 0px;
+  font-size: 10px;
+  letter-spacing: 20px;
+  background-color: #ffffff;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.task {
+  margin: 50px;
+  height: 150px;
+  float: left;
+}

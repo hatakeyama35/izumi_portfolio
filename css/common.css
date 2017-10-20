@@ -1,0 +1,297 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    min-width: 1080px;
+  height: 600px;
+  overflow: hidden;
+    position: relative;
+}
+
+.material {
+  width: 1000px;
+  height: 600px;
+  margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+  position: absolute;
+}
+
+.material > * {
+  position: absolute;
+  transform: rotate(0);
+}
+
+#main {
+padding-top: 45px;
+  overflow: hidden;
+}
+
+/* -------header------- */
+
+header{
+    height: 45px;
+    background-color: #2c2c2c;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+
+.nav{
+    overflow: hidden;
+    position: absolute;
+    right: 60px;
+    top: 0;
+    margin: 0px;
+    line-height: 45px;
+}
+
+.nav li{
+    list-style: none;
+    float: left;
+    margin: auto 20px;
+}
+
+.logo{
+    color: aliceblue;
+    margin: auto 60px;
+    line-height: 45px;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    z-index: 1001;
+    opacity: 0.8;
+    color: #fff291;
+} 
+
+/* top
+--------------------------------------*/
+#top {
+  background-color: #d7fca7;
+}
+
+.title {
+  position: absolute;
+  width: 1000px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+.title img {
+  position: absolute;
+  width: 329px;
+  height: 162px;
+  left: 97px;
+  top: 124px;
+  z-index: 5;
+}
+
+p.jk{
+    width: 543px;
+    height: 905px;
+    left: 620px;
+    z-index: 6;
+}
+
+
+/* about
+--------------------------------------*/
+#about {
+  background-color: #d3ecf7;
+    position: relative;
+}
+
+#about .content_title {
+    background-image: url(../img/common/about_title_bg.png);
+    width: 177px;
+    height: 173px;
+    text-align: center;
+    line-height: 173px;
+    margin: 58 auto;
+    color: #265970;
+}
+
+.profile {
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 560px;
+    height: 235px;
+    padding: 45px 40px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 50px;
+    top: 310px;
+    z-index: 10;
+}
+
+.profile h3 {
+    font-size: 25px;
+    margin-bottom: 35px;
+    color: #363636;
+}
+
+.profile p {
+    font-size: 13px;
+    color: #363636;
+}
+
+/* work
+--------------------------------------*/
+#work {
+  background-color: #d7fca7;
+}
+
+
+#work .content_title {
+    background-image: url(../img/common/work_title_bg.png);
+    width: 173px;
+    height: 187px;
+    margin: 50 auto;
+    color: #567b26;
+    padding: 80px 74px;
+    box-sizing: border-box;
+}
+
+.work_item {
+  margin: 0 4px 8px;
+  letter-spacing: normal;
+  display: inline-block;
+}
+.work_item a {
+  display: block;
+  width: 132px;
+  height: 132px;
+}
+
+.work_item img {
+  margin: 1px;
+  width: 130px;
+  height: 130px;
+}
+
+.work_items {
+    margin: auto;
+    width: 560px;
+  text-align: center;
+  letter-spacing: -.4em;
+  font-size: 0;
+  text-align: left;
+  position: relative;
+  z-index: 100;
+}
+
+
+
+/* illust
+--------------------------------------*/
+#illust {
+  background-color: #c8ebff;
+}
+
+#illust > *:hover {
+    z-index: 999999;
+}
+
+#illust .content_title {
+    background-image: url(../img/common/illust_title_bg.png);
+    width: 161px;
+    height: 186px;
+    text-align: center;
+    line-height: 173px;
+    margin: 0 auto;
+    color: #165b8b;
+    margin-top: -50px;
+}
+
+/*メニュー*/
+.illust_menu {
+    list-style: none;
+    width: 365px;
+    margin: -93px auto -93px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1000;
+} 
+
+
+.illust_menu li {
+    background-repeat: no-repeat;
+    width: 161px;
+    height: 186px;
+    position: relative;
+    z-index: 70;
+    text-align: center;
+    line-height: 186px;
+    color: #ffffff;
+    float: left;
+    margin: 10px;
+}
+
+.illust_menu li:hover {
+    cursor: pointer;
+    opacity: 0.8
+}
+
+.illust_menu .degital {
+    background-image: url(../img/menu_dlia01.png);
+} 
+
+
+.illust_menu .analog {
+    background-image:url(../img/menu_dlia02.png);
+} 
+
+
+/*イラストと切り絵サムネイルエリア*/
+.illust_items {
+    margin: 0 auto;
+    width: 1086px;
+    margin-top: 93px;
+}
+
+.illust_items.off {
+    display: none;
+} 
+
+
+.illust_items img {
+    display: block;
+}
+
+.illust_item{
+    margin: 10px;
+    float: left;
+    list-style: none;
+    position: relative;
+    z-index: 100;
+}
+
+
+.illust_item:hover {
+    z-index: 1001;
+    opacity: 0.8;
+} 
+
+.illust_item{
+    margin-top: -93px;
+}
+
+.illust_item:nth-child(1),
+.illust_item:nth-child(11n +  1) {
+    margin-left: 100px;
+}
+
+.illust_item:nth-child(5),
+.illust_item:nth-child(11n + 5) {
+    margin-right: 0px;
+}

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.clfix:after {
+	content: "";
+	display: block;
+	height: 1px;
+	clear: both;
+	visibility: hidden;
+}
+.clfix {
+	display:inline-block;  /* MAC IE用　*/
+	min-height:1%;  /* IE 7用 */
+}
+/*--MAC IEは非適用→ ¥*/
+
+* html .clfix {
+	height: 1%;
+}
+.clfix {
+	display: block;
+}

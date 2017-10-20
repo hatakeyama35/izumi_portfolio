@@ -1,0 +1,494 @@
+@charset "utf-8";
+
+
+/* top
+--------------------------------------*/
+
+p.jk{
+    width: 543px;
+    height: 905px;
+    left: 620px;
+    z-index: 6;
+}
+
+p.maru_1 {
+  width: 323px;
+  height: 323px;
+  left: 784px;
+  top: 0px;
+  z-index: 4;
+}
+
+p.maru_2 {
+  width: 689px;
+  height: 689px;
+  left: -169px;
+  top: -216px;
+  z-index: 3;
+}
+
+p.maru_3 {
+  width: 288px;
+  height: 288px;
+  left: 313px;
+  top: 258px;
+  z-index: 2;
+}
+
+p.background {
+  width: 1000px;
+  height: 600px;
+  left: -101px;
+  top: -1px;
+  z-index: 1;
+}
+
+
+/* about
+--------------------------------------*/
+
+/* rain */
+p.rain_01 {
+  width: 246px;
+  height: 418px;
+  left: 137px;
+  top: 0px;
+  z-index: 18;
+}
+
+p.rain_02 {
+  width: 211px;
+  height: 358px;
+  left: 296px;
+  top: 0px;
+  z-index: 17;
+}
+
+p.rain_03 {
+  width: 102px;
+  height: 168px;
+  left: 205px;
+  top: 0px;
+  z-index: 16;
+}
+
+p.rain_04 {
+  width: 250px;
+  height: 427px;
+  left: -26px;
+  top: 0px;
+  z-index: 15;
+}
+
+p.rain_05 {
+  width: 62px;
+  height: 99px;
+  left: 784px;
+  top: 0px;
+  z-index: 14;
+}
+
+p.rain_06 {
+  width: 247px;
+  height: 420px;
+  left: 1025px;
+  top: -100px;
+  z-index: 13;
+}
+
+p.rain_07 {
+  width: 247px;
+  height: 420px;
+  left: 734px;
+  top: 0px;
+  z-index: 12;
+}
+
+p.rain_08 {
+  width: 50px;
+  height: 80px;
+  left: 553px;
+  top: 0px;
+  z-index: 11;
+}
+
+p.rain_09 {
+  width: 125px;
+  height: 211px;
+  left: 623px;
+  top: 0px;
+  z-index: 10;
+}
+
+p.roku_01 {
+  width: 379px;
+  height: 334px;
+  left: 786px;
+  top: 112px;
+  z-index: 9;
+}
+
+p.roku_03 {
+  width: 156px;
+  height: 153px;
+  left: 579px;
+  top: 462px;
+  z-index: 8;
+}
+
+p.roku_04 {
+  width: 92px;
+  height: 90px;
+  left: 793px;
+  top: 423px;
+  z-index: 7;
+}
+
+p.roku_05 {
+  width: 228px;
+  height: 230px;
+  left: 626px;
+  top: 240px;
+  z-index: 6;
+}
+
+p.roku_06 {
+  width: 139px;
+  height: 149px;
+  left: 779px;
+  top: 70px;
+  z-index: 5;
+}
+
+p.roku_07 {
+  width: 257px;
+  height: 236px;
+  left: 28px;
+  top: 78px;
+  z-index: 4;
+}
+
+p.roku_08 {
+  width: 190px;
+  height: 165px;
+  left: -68px;
+  top: 4px;
+  z-index: 3;
+}
+
+
+/* work
+--------------------------------------*/
+
+p.triangle_01 {
+  width: 212px;
+  height: 221px;
+  left: 20px;
+  top: 250px;
+  z-index: 14;
+}
+
+p.triangle_02 {
+  width: 156px;
+  height: 140px;
+  left: 815px;
+  top: 366px;
+  z-index: 13;
+}
+
+p.triangle_03 {
+  width: 44px;
+  height: 46px;
+  left: 686px;
+  top: 41px;
+  z-index: 12;
+}
+
+p.triangle_04 {
+  width: 56px;
+  height: 52px;
+  left: 391px;
+  top: 502px;
+  z-index: 11;
+}
+
+p.triangle_06 {
+  width: 191px;
+  height: 203px;
+  left: 623px;
+  top: 397px;
+  z-index: 10;
+}
+
+p.triangle_07 {
+  width: 100px;
+  height: 102px;
+  left: 615px;
+  top: 517px;
+  z-index: 9;
+}
+
+p.triangle_08 {
+  width: 124px;
+  height: 113px;
+  left: 585px;
+  top: 161px;
+  z-index: 8;
+}
+
+p.triangle_09 {
+  width: 249px;
+  height: 275px;
+  left: 815px;
+  top: -10px;
+  z-index: 7;
+}
+
+p.triangle_10 {
+  width: 223px;
+  height: 226px;
+  left: -100px;
+  top: 302px;
+  z-index: 6;
+}
+
+p.triangle_11 {
+  width: 123px;
+  height: 142px;
+  left: 69px;
+  top: 44px;
+  z-index: 5;
+}
+
+p.triangle_12 {
+  width: 142px;
+  height: 128px;
+  left: 64px;
+  top: 451px;
+  z-index: 4;
+}
+
+
+/* illust
+--------------------------------------*/
+
+
+/* dia */
+p.dia_01 {
+	width: 64px;
+	height: 73px;
+	left: 861px;
+	top: 430px;
+	z-index: 32;
+}
+p.dia_02 {
+	width: 64px;
+	height: 73px;
+	left: 621px;
+	top: 556px;
+	z-index: 31;
+}
+p.dia_03 {
+	width: 64px;
+	height: 73px;
+	left: 1052px;
+	top: 19px;
+	z-index: 30;
+}
+p.dia_04 {
+	width: 64px;
+	height: 73px;
+	left: 1055px;
+	top: 308px;
+	z-index: 29;
+}
+p.dia_05 {
+	width: 64px;
+	height: 73px;
+	left: 812px;
+	top: 491px;
+	z-index: 28;
+}
+p.dia_06 {
+	width: 64px;
+	height: 73px;
+	left: 820px;
+	top: 322px;
+	z-index: 27;
+}
+p.dia_07 {
+	width: 51px;
+	height: 59px;
+	left: 784px;
+	top: 543px;
+	z-index: 26;
+}
+p.dia_08 {
+	width: 64px;
+	height: 73px;
+	left: 836px;
+	top: 552px;
+	z-index: 25;
+}
+p.dia_09 {
+	width: 141px;
+	height: 162px;
+	left: 897px;
+	top: 103px;
+	z-index: 24;
+}
+p.dia_10 {
+	width: 122px;
+	height: 140px;
+	left: 1007px;
+	top: 165px;
+	z-index: 23;
+}
+p.dia_11 {
+	width: 122px;
+	height: 140px;
+	left: 871px;
+	top: 321px;
+	z-index: 22;
+}
+p.dia_12 {
+	width: 122px;
+	height: 140px;
+	left: 939px;
+	top: 242px;
+	z-index: 21;
+}
+p.dia_13 {
+	width: 183px;
+	height: 210px;
+	left: 874px;
+	top: 439px;
+	z-index: 20;
+}
+p.dia_14 {
+	width: 141px;
+	height: 162px;
+	left: 975px;
+	top: 349px;
+	z-index: 19;
+}
+p.dia_15 {
+	width: 141px;
+	height: 162px;
+	left: 751px;
+	top: -149px;
+	z-index: 18;
+}
+p.dia_16 {
+	width: 141px;
+	height: 162px;
+	left: 820px;
+	top: 190px;
+	z-index: 17;
+}
+p.dia_17 {
+	width: 64px;
+	height: 73px;
+	left: 121px;
+	top: 527px;
+	z-index: 16;
+}
+p.dia_18 {
+	width: 53px;
+	height: 61px;
+	left: 209px;
+	top: -4px;
+	z-index: 15;
+}
+p.dia_19 {
+	width: 64px;
+	height: 73px;
+	left: -102px;
+	top: 352px;
+	z-index: 14;
+}
+p.dia_20 {
+	width: 64px;
+	height: 73px;
+	left: 242px;
+	top: 565px;
+	z-index: 13;
+}
+p.dia_21 {
+	width: 64px;
+	height: 73px;
+	left: 185px;
+	top: 543px;
+	z-index: 12;
+}
+p.dia_22 {
+	width: 64px;
+	height: 73px;
+	left: 133px;
+	top: 338px;
+	z-index: 11;
+}
+p.dia_23 {
+	width: 64px;
+	height: 73px;
+	left: 158px;
+	top: 485px;
+	z-index: 10;
+}
+p.dia_24 {
+	width: 141px;
+	height: 162px;
+	left: -21px;
+	top: 468px;
+	z-index: 9;
+}
+p.dia_25 {
+	width: 122px;
+	height: 140px;
+	left: -112px;
+	top: 428px;
+	z-index: 8;
+}
+p.dia_26 {
+	width: 122px;
+	height: 140px;
+	left: 24px;
+	top: 272px;
+	z-index: 7;
+}
+p.dia_27 {
+	width: 122px;
+	height: 140px;
+	left: -44px;
+	top: 351px;
+	z-index: 6;
+}
+p.dia_28 {
+	width: 183px;
+	height: 210px;
+	left: -159px;
+	top: -112px;
+	z-index: 5;
+}
+p.dia_29 {
+	width: 183px;
+	height: 210px;
+	left: -40px;
+	top: 84px;
+	z-index: 4;
+}
+p.dia_30 {
+	width: 141px;
+	height: 162px;
+	left: -99px;
+	top: 222px;
+	z-index: 3;
+}
+p.dia_31 {
+	width: 141px;
+	height: 162px;
+	left: 56px;
+	top: 381px;
+	z-index: 2;
+}
+

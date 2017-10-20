@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  height: 900px;
+  background-color: #404040;
+  background: url(../img/haikei2.jpg);
+}
+
+h1 {
+  text-decoration-color: aliceblue;
+}
+
+.tophead {
+  height: 100px;
+  padding: 55px;
+  position: static;
+  background-color: #464646;
+  background: url(../img/header3.jpg);
+}
+
+.tophead h1 {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 30px;
+  color: #000;
+}
+
+ul li {
+  height: 20px;
+  list-style: none;
+  float: left;
+}
+
+.nav_li {
+  width: 100px;
+  text-align: center;
+}
+
+main {
+  margin: 100px;
+  overflow: hidden;
+}
+
+
+/*boxの動き*/
+
+section {
+  width: 310px;
+  height: 310px;
+  background: url(../img/hai.png);
+}
+
+.box {
+  position: relative;
+  overflow: hidden;
+  float: left;
+  background-color: #888;
+  width: 310px;
+  height: 310px;
+  margin: 0 15px 15px 0;
+}
+
+.box:tnh-child(3n) {
+  margin: 0 0 15px 0;
+}
+
+.box header {
+  position: absolute;
+  top: -4.5em;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0);
+  transition: 0.3s linear;
+}
+
+.box:hover header {
+  top: 0;
+}
+
+.box h2 {
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: normal;
+  line-height: 1;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.78);
+}
+
+footer {
+  margin: 0;
+  height: 100px;
+  padding: 1px;
+  background-color: #3e3e3e;
+  text-align: center;
+  color: #000;
+  background: url(../img/header3.jpg);
+}
