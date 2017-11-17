@@ -72,7 +72,7 @@ a:hover {
     z-index: 1001;
     opacity: 0.8;
     color: #fff291;
-} 
+}
 
 /* top
 --------------------------------------*/
@@ -211,6 +211,8 @@ p.jk{
     margin: 0 auto;
     color: #165b8b;
     margin-top: -50px;
+    position: relative;
+    z-index: 999;
 }
 
 /*メニュー*/
@@ -221,7 +223,7 @@ p.jk{
     overflow: hidden;
     position: relative;
     z-index: 1000;
-} 
+}
 
 
 .illust_menu li {
@@ -244,12 +246,12 @@ p.jk{
 
 .illust_menu .degital {
     background-image: url(../img/menu_dlia01.png);
-} 
+}
 
 
 .illust_menu .analog {
     background-image:url(../img/menu_dlia02.png);
-} 
+}
 
 
 /*イラストと切り絵サムネイルエリア*/
@@ -261,7 +263,7 @@ p.jk{
 
 .illust_items.off {
     display: none;
-} 
+}
 
 
 .illust_items img {
@@ -280,7 +282,7 @@ p.jk{
 .illust_item:hover {
     z-index: 1001;
     opacity: 0.8;
-} 
+}
 
 .illust_item{
     margin-top: -93px;

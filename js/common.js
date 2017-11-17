@@ -88,33 +88,40 @@ $(window).on('scroll resize load', function () {
 });
 
 /* ダイヤモーション */
+var $window = $(window)
+var windowHeight = window.innerHeight
+var pageHeight = $('body').height()
+$window.on('resize', function() {
+  windowHeight = window.innerHeight
+  pageHeight = $('body').height()
+})
 
-var $illust_item = $('#illust .material > *')
+var $illust_material = $('#illust .material > *')
 var illustPosition = $('#illust').offset().top
-$illust_item.each(function(i) {
+$illust_material.each(function(i) {
   var random = Math.random() * 0.5
   var speed = random
-  
+
   $(this).parallaxSpeed({
       style: 'top',
       max: parseInt($(this).css('top')),
       speed: speed,
-      fixScrollPosition: illustPosition - 150
+      fixScrollPosition: pageHeight - windowHeight
   })
 })
 
 
 /* illustモーション */
 
-var $illust = $('#illust .illust_item')
-$illust.each(function(i) {
+var $illust_item = $('#illust .illust_item')
+$illust_item.each(function(i) {
   var random = Math.random() * 0.5
   var speed = random
-  
+
   $(this).parallaxSpeed({
       style: 'top',
       max: 0,
       speed: speed,
-      fixScrollPosition: illustPosition - 150
+      fixScrollPosition: pageHeight - windowHeight
   })
 })
