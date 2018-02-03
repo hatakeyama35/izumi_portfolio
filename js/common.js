@@ -122,6 +122,6 @@ $illust_item.each(function(i) {
       style: 'top',
       max: 0,
       speed: speed,
-      fixScrollPosition: pageHeight - windowHeight
+      fixScrollPosition: 'lastScrollPosition'
   })
 })
